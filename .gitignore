@@ -24,6 +24,7 @@ ENV/
 
 # Local tool/state files
 .codex
+notes.md
 
 # Editor/OS noise
 .vscode/

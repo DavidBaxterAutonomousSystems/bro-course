@@ -1,0 +1,114 @@
+direction: right
+
+vehicle: "Autonomous Vehicle" {
+  grid-columns: 1
+  grid-gap: 24
+
+  style: {
+    fill: "#EAF2FF"
+    stroke: "#4A78C2"
+    stroke-width: 2
+    border-radius: 12
+    shadow: true
+    font-size: 28
+    font-color: "#1F2A44"
+  }
+
+  fc_sw: "Flight Controller Software\nArduPilot / PX4" {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#4A78C2"
+      border-radius: 8
+    }
+  }
+
+  fc_hw: "Flight Controller Hardware\nPixhawk or other ArduPilot\nflight control board" {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#4A78C2"
+      border-radius: 8
+    }
+  }
+
+  v_hw: "Vehicle Hardware\nDrone / Plane / Boat / Rover / Sub\nSensors / Motors / Batteries" {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#4A78C2"
+      border-radius: 8
+    }
+  }
+}
+
+
+comms: "Communication Layer" {
+  grid-columns: 1
+  grid-gap: 20
+
+  style: {
+    fill: "#FFF4E5"
+    stroke: "#C9892B"
+    stroke-width: 2
+    border-radius: 12
+    shadow: true
+    font-size: 28
+    font-color: "#4A3720"
+  }
+
+  protocol: "Protocol\nMAVLink" {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#C9892B"
+      border-radius: 8
+    }
+  }
+
+  transport: "Transport\nUART / USB / Telemetry Radio /\nWi-Fi / LTE" {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#C9892B"
+      border-radius: 8
+    }
+  }
+}
+
+gcs: "GCS\n(Companion Computer or External Laptop)" {
+  grid-columns: 1
+  grid-gap: 24
+
+  style: {
+    fill: "#EAF8EE"
+    stroke: "#4E9B68"
+    stroke-width: 2
+    border-radius: 12
+    shadow: true
+    font-size: 28
+    font-color: "#1F3A2A"
+  }
+
+  gcs_sw: "GCS Software\nQGroundControl / DroneKit / Mission Planner" {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#4E9B68"
+      border-radius: 8
+    }
+  }
+
+  gcs_hw: "GCS Hardware\nTelemetry Module to\nCompanion Computer or Laptop" {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#4E9B68"
+      border-radius: 8
+    }
+  }
+}
+
+vehicle <-> comms
+comms <-> gcs
+
+(vehicle <-> comms)[0].style: {
+  stroke-width: 2
+}
+
+(comms <-> gcs)[0].style: {
+  stroke-width: 2
+}
