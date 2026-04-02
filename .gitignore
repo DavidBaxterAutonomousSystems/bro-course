@@ -1,0 +1,32 @@
+# MkDocs build output
+site/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local tool/state files
+.codex
+
+# Editor/OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

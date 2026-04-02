@@ -1,0 +1,14 @@
+site_name: BRO
+site_description: Build, Run, Operate
+
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - Schedule: schedule.md
+  - Build Track: build-track.md
+  - Setup: setup.md
+  - Resources: resources.md
+  - FAQ: faq.md
+
+theme:
+  name: mkdocs
