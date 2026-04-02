@@ -1,5 +1,8 @@
 site_name: BRO
 site_description: Build, Run, Operate
+site_url: https://davidbaxterautonomoussystems.github.io/bro-course/
+repo_url: https://github.com/DavidBaxterAutonomousSystems/bro-course
+repo_name: DavidBaxterAutonomousSystems/bro-course
 
 nav:
   - Home: index.md
