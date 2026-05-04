@@ -8,6 +8,8 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Overview: overview.md
+  - Study Circle: study-circle.md
+  - BOM & Costs: bom.md
   - Schedule: schedule.md
   - Resources: resources.md
   - FAQ: faq.md

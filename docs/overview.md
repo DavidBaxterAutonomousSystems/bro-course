@@ -8,6 +8,8 @@ We will use the following diagram to organize the major layers involved in a wor
 
 ![System overview](assets/overview.svg)
 
+_Layout inspiration for this high-level architecture view: [High Level Perspective of a Flight Stack (YouTube)](https://youtu.be/2iF9jp0YA8w?si=izdAk5OoUSd_goPV)._
+
 At a high level, the diagram separates the system into three parts:
 
 - the autonomous vehicle
@@ -19,4 +21,3 @@ Each block is also organized as a stack of increasing abstraction from bottom to
 This abstraction view is central to the course. BRO is structured around understanding how to get each block built, running, calibrated, and interfaced with the others.
 
 A key feature of this model is that most of the blocks and sub-blocks remain the same across domains. The main part that changes is the **vehicle hardware** layer at the bottom left of the diagram. A multicopter, rover, boat, or sub may differ in physical structure and in the specific sensors and actuators it uses, but the surrounding system architecture is often remarkably similar. As a result of open-source hardware and software development, once the vehicle is assembled and its electronics are integrated with a flight controller (such as a Pixhawk), it can often be configured, calibrated, and controlled through nearly the same workflow across domains.
-

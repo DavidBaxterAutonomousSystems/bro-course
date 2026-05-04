@@ -25,6 +25,8 @@ ENV/
 # Local tool/state files
 .codex
 notes.md
+notes/
+.bom-sheet-url
 
 # Editor/OS noise
 .vscode/
