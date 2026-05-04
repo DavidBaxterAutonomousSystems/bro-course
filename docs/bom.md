@@ -2,7 +2,7 @@
 
 This page currently reflects an initial parts plan and is not yet fully updated to match final purchased parts.
 
-## Bill of Materials
+## Initial Parts Plan
 
 | Category | Item | Est Total (SEK) | Link | Notes |
 | --- | --- | --- | --- | --- |

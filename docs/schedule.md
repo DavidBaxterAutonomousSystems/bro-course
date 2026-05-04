@@ -12,7 +12,7 @@
     - Drone build and operation goals.
     - High-level system architecture
     - Parts ordered so far and immediate build plan.
-    - Agree on date/time focus for the next meeting.
+    - Agree on date, time, and focus for the next meeting.
 
 ## Upcoming Sessions
 

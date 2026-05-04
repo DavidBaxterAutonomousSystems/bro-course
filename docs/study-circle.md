@@ -66,6 +66,20 @@ The group can set shared priorities during the study circle, for example:
 Add or revise these as the group aligns on interests.
 The group should also aim to execute an autonomous task or mission that participants are excited about and can plan and work toward together.
 
+## Using This Site Together
+
+This site can also serve as a shared place to organize what the study circle learns, not only as a finished course handout.
+
+Participants can help in whatever way is comfortable:
+
+- Point out when an instruction or a general step in the build, run, or operate process is unclear.
+- Add notes from build sessions, including what worked, what failed, and what should be tried next.
+- Share photos, observations, troubleshooting steps, or useful links.
+- Suggest new sections or pages that would help organize topics the group wants to understand.
+- Use GitHub issues or pull requests if that workflow is comfortable; otherwise share feedback through the group and it can be folded into the site.
+
+Small observations are useful. A quick note about where someone got stuck can help make the course clearer and easier to repeat.
+
 ## Expectations
 
 - No prior drone-building or programming experience is required.

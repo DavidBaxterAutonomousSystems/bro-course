@@ -2,6 +2,8 @@
 
 BRO is a practical course for researchers, engineers, and anyone else who wants to move from theory to working autonomous systems.
 
+> Current pilot: The Spring 2026 study circle is using this site as a working space while we develop the broader BRO course.
+
 ## What this course is about
 
 BRO teaches the practical workflow for building, integrating, calibrating, and operating autonomous platforms.

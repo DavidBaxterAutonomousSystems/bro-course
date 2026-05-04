@@ -1,6 +1,8 @@
 # Resources
 
-## Reference Build Video (Inspiration)
+This page collects references we may use during the study circle and future BRO course development. Add useful links as they come up.
+
+## Reference Builds
 
 This build is a useful reference for course planning, but it is **not** a 1:1 match for our setup.
 
@@ -32,3 +34,31 @@ Suggested chapter references:
 - [1:09:58 Flying The Drone](https://youtu.be/0xPQ__RNwNs?t=4198)
 - [1:14:40 Endurance Test](https://youtu.be/0xPQ__RNwNs?t=4480)
 - [1:17:07 Python Controlled Pi Zero Drone](https://youtu.be/0xPQ__RNwNs?t=4627)
+
+## ArduPilot Documentation
+
+Add links for official ArduPilot setup, configuration, calibration, first flight, and safety references.
+
+## Ground Control Software
+
+Add links for QGroundControl, Mission Planner, MAVProxy, mission planning, telemetry inspection, and log review.
+
+## Companion Computer and Autonomy
+
+Add links for Raspberry Pi setup, MAVLink libraries, Python control, computer vision, and onboard autonomy workflows.
+
+## Simulation and Sim-to-Real
+
+Add links for Software-in-the-Loop (SITL), simulated mission testing, and workflows for moving autonomy code from simulation to hardware.
+
+## Hardware and Integration
+
+Add links for Pixhawk, wiring, power, RC control, telemetry, GPS, mounting, 3D printing, and practical build references.
+
+## Safety, Rules, and Operations
+
+Add links for safe battery handling, propeller safety, pre-flight checks, local operating rules, and practical field procedures.
+
+## Inspirational Use Cases and Examples
+
+Add interesting examples of autonomous systems, drone missions, research demos, field robotics projects, or applications that could inspire stretch goals.
