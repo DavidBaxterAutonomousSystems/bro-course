@@ -1,0 +1,26 @@
+summary_type,name,amount_sek,logic_notes,core_selected_cost_ex_vat_sek,optional_selected_cost_ex_vat_sek,core_build_qty,optional_build_qty
+cost_bucket,Core drone components,7452.91,Component/Hardware + Required + Selected,,,,
+procurement_bridge,Comparable parts ex VAT,14623.90,Parts only; best apples-to-apples comparison,,,,
+cost_bucket,Optional selected add-ons,736.09,Component/Hardware + Optional + Selected,,,,
+procurement_bridge,Shipping ex VAT,885.38,Shipping cost excluding VAT where modeled,,,,
+cost_bucket,Consumables,414.63,Role = Consumable,,,,
+procurement_bridge,Clearance/admin ex VAT,396.00,Carrier fee + customs duty + other levies; excludes VAT,,,,
+cost_bucket,Tools / support equipment,3184.70,Role = Support equipment,,,,
+procurement_bridge,Net procurement ex VAT,15905.29,Comparable procurement burden excluding VAT,,,,
+cost_bucket,Spare / secondary,1693.94,Selection = Secondary/spare,,,,
+procurement_bridge,Parts VAT,2249.31,Embedded supplier VAT on domestic/EU-style orders,,,,
+cost_bucket,Alternatives not selected,1141.65,Selection = Alternative,,,,
+procurement_bridge,Shipping/service VAT,104.21,Domestic shipping VAT + VAT on carrier handling,,,,
+cost_bucket,Not used / review,0.00,Selection = Not used / Review,,,,
+procurement_bridge,Import VAT,1652.00,Import VAT paid separately on imported orders,,,,
+cost_bucket,Total comparable parts ex VAT,14623.90,Sum of all comparable line costs,,,,
+procurement_bridge,Total cash paid,19910.81,Actual cash outlay across all orders,,,,
+subsystem,Propulsion,,,2396.61,0.00,13,0
+subsystem,Flight control,,,1520.04,0.00,1,0
+subsystem,Communications,,,1207.28,303.20,2,1
+subsystem,Navigation & sensing,,,503.57,286.49,1,1
+subsystem,Compute / autonomy,,,774.01,0.00,2,0
+subsystem,Power,,,637.90,0.00,3,0
+subsystem,Frame & structure,,,384.61,0.00,1,0
+subsystem,Payload,,,0.00,146.40,0,1
+subsystem,Mounting & fasteners,,,28.89,0.00,2,0

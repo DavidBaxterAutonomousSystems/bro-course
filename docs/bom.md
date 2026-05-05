@@ -1,28 +1,95 @@
 # Bill of Materials
 
-This page currently reflects an initial parts plan and is not yet fully updated to match final purchased parts.
+This page summarizes the current study circle build parts and costs. It is intended to be readable for participants; the detailed procurement audit trail is generated locally and is not published.
 
-## Initial Parts Plan
+The cost view is a working planning aid, not a final purchasing recommendation. Prices, availability, shipping, import handling, and substitutions may change as the build develops.
 
-| Category | Item | Est Total (SEK) | Link | Notes |
-| --- | --- | --- | --- | --- |
-| Drone Kit & Core Electronics | 500 V2 Frame Kit | 724.00 | [Link](https://hab.se/modeller-delar/holybro-s500-v2-frame-kit) | Sweden source (HAB) |
-| Drone Kit & Core Electronics | Pixhawk 6C Flight Controller | 2260.00 | [Link](https://www.elefun.se/vara-70412/fpv-dronare-flight-controller-holybro-pixhawk-6c-plastic-case?show=monitor) | Plastic-case variant from Sweden source |
-| Drone Kit & Core Electronics | PM02 V3 12S Power Module | 353.00 | [Link](https://hab.se/elektronik-batterier/holybro-pm02-v3-power-module-12s) | Sweden source (HAB) |
-| Drone Kit & Core Electronics | M10 GPS Module | 659.00 | [Link](https://hab.se/elektronik-batterier/holybro-m10-gps-secondary-gps) | Sweden source (HAB) |
-| Drone Kit & Core Electronics | SiK Telemetry Radio V3 | 1158.00 | [Link](https://hab.se/elektronik-batterier/holybro-sik-telemetry-radio-v3-100mw-433mhz) | 100mW 433MHz kit from Sweden source |
-| Drone Kit & Core Electronics | Holybro 2216 KV920 Motor (4 pcs) | 1380.00 | [Link](https://hab.se/modeller-delar/multirotor/holybro/reservdelar/) | Set price as 4 x 345 SEK (2x CW + 2x CCW) |
-| Drone Kit & Core Electronics | BLHeli S ESC 20A (4 pcs) | 964.00 | [Link](https://hab.se/modeller-delar/multirotor/holybro/reservdelar/) | Set price as 4 x 241 SEK |
-| Drone Kit & Core Electronics | 1045 Propellers (4 pcs) | 239.00 | [Link](https://hab.se/modeller-delar/holybro-x500s500-v2-propeller1045-2pair) | 2-pair pack (4 propellers) |
-| Power & Charging | LiPo 4S 5000mAh 14.8V (XT60) | 1070.00 | [Link](https://www.autopartner.se/sv/batterier/li-po-batteri-4s-148v-7500mah-100c-xt60-kontakt.html) | Replacement used: 4S 7500mAh XT60 (Sweden source) |
-| Power & Charging | SkyRC e680 Universal Charger | 699.00 | [Link](https://www.elefun.se/p/prod.aspx?v=44861) | Built-in AC (100-240V) + DC input (11-18V); 80W max / 8A max; larger and heavier |
-| Power & Charging | 18650 Cell Charger for QX7/X9 Lite (XTAR VC8) | 466.00 | [Link](https://www.amazon.se/dp/B082D65385) | From Amazon short link; estimated SEK from Sweden listing |
-| Camera | Logitech C615 USB webcam | 199.00 | [Link](https://www.netonnet.se/art/dator-surfplatta/datortillbehor/webbkamera/logitech-c615-hd/1015719.8921/) | Companion-computer camera option |
-| Radio Control (RC) | FrSky Taranis Q X7 ACCESS (EU) | 1895.00 | [Link](https://www.elefun.se/vara-48092/radioutrustning-sandare-frsky-taranis-q-x7-access-black-eu) | Verify regional and firmware compatibility |
-| Radio Control (RC) | QX7/X9 Lite 18650 battery set (2 cells) | 216.46 | [Link](https://www.engelmt.de/mtbatteries/single-cells/taranis-qx7-x9-lite-batteries-inr18650-30q-button-top) | Listed at 19.95 EUR; converted to SEK at ~10.85 EUR/SEK (Apr 2026) |
-| Radio Control (RC) | FrSky X8R receiver (SBUS) | 599.00 | [Link](https://www.elefun.se/vara-33758/radioutrustning-mottagare-frsky-x8r) | Vehicle-side RC receiver |
-| Companion Computer | Raspberry Pi 4 | 1199.00 | [Link](https://www.electrokit.com/raspberry-pi-5-4gb) | Onboard compute; linked option is Raspberry Pi 5 4GB |
-| Companion Computer | USB flash drive >= 16GB (example 32GB) | 129.00 | [Link](https://www.netonnet.se/art/dator-surfplatta/datortillbehor/lagring/usb-minne/sandisk-ultra-fit-32gb-usb-3-1/1002879.8917/) | Logging and storage |
-| Miscellaneous | Beyond Robotix Kahuna (WiFi <-> MAVLink) | 414.00 | [Link](https://www.beyondrobotix.com/products/kahuna) | Checkout-confirmed at 414.00 SEK including shipping (user-provided) |
-| Ground Station & Software | QGroundControl | 0.00 | [Link](https://qgroundcontrol.com/) | Ground control software |
-| Ground Station & Software | Holybro S500 parameter files | 0.00 | [Link](https://github.com/ArduPilot/ardupilot/blob/master/Tools/Frame_params/Holybro-S500.param) | Load via QGroundControl |
+Accounting model: comparable parts use ex-VAT item cost only. Shipping and clearance/admin are kept as order-level procurement overhead rather than assigned to individual subsystems. VAT is grouped by category: parts VAT, shipping/service VAT, and import VAT.
+
+Last generated: 2026-05-05.
+
+## Cost Summary
+
+| Component | Amount (SEK) | Notes |
+| --- | ---: | --- |
+| Comparable parts ex VAT | 14,623.90 | Parts-only comparison cost. |
+| Procurement overhead ex VAT | 1,281.38 | Shipping plus clearance/admin, excluding VAT where modeled. |
+| VAT | 4,005.52 | Parts VAT + shipping/service VAT + import VAT. |
+| Total cash paid | 19,910.81 | Actual cash outlay across all orders. |
+
+## VAT Categories
+
+| Category | Amount (SEK) | Meaning |
+| --- | ---: | --- |
+| Parts VAT | 2,249.31 | VAT embedded in VAT-bearing item purchases. |
+| Shipping/service VAT | 104.21 | VAT on shipping or carrier service charges. |
+| Import VAT | 1,652.00 | VAT paid at import; this may be based on imported goods plus shipping or other customs-base amounts. |
+
+## Cost Visuals
+
+These charts are generated from the processed BOM cost outputs.
+
+![Selected build cost by subsystem](assets/bom/subsystem_cost_pie.svg)
+
+![Total cash paid breakdown](assets/bom/cash_paid_breakdown.svg)
+
+## Selected Build Cost by Subsystem
+
+Comparable parts view only: item cost excluding VAT, with shipping and clearance kept as order-level procurement overhead.
+
+| Subsystem | Core Cost (SEK ex VAT) | Optional Cost (SEK ex VAT) | Core Build Qty | Optional Build Qty |
+| --- | ---: | ---: | ---: | ---: |
+| Propulsion | 2,396.61 | 0.00 | 13 | 0 |
+| Flight control | 1,520.04 | 0.00 | 1 | 0 |
+| Communications | 1,207.28 | 303.20 | 2 | 1 |
+| Navigation & sensing | 503.57 | 286.49 | 1 | 1 |
+| Compute / autonomy | 774.01 | 0.00 | 2 | 0 |
+| Power | 637.90 | 0.00 | 3 | 0 |
+| Frame & structure | 384.61 | 0.00 | 1 | 0 |
+| Payload | 0.00 | 146.40 | 0 | 1 |
+| Mounting & fasteners | 28.89 | 0.00 | 2 | 0 |
+
+## Selected Items
+
+| Subsystem | Item | Build Qty | Need | Comparable Cost (SEK ex VAT) | Vendor | Link |
+| --- | --- | ---: | --- | ---: | --- | --- |
+| Communications | Holybro - SiK Telemetry Radio Set V3 | 1 | Required | 737.68 | 3DXR | [Link](https://www.3dxr.co.uk/radio-gear-c33/telemetry-c31/433-mhz-telemetry-c32/holybro-sik-telemetry-radio-set-v3-100mw-433mhz-p3021) |
+| Communications | Kahuna With Range ExtendingWiFi Adapter | 1 | Optional | 303.20 | Beyond Robotics | [Link](https://www.beyondrobotix.com/products/kahuna?variant=52265624830289) |
+| Communications | Receiver - FrSky X8R | 1 | Required | 469.60 | Elefun | [Link](https://www.elefun.se/vara-33758/radioutrustning-mottagare-frsky-x8r) |
+| Compute / autonomy | Raspberry Pi 4 Model B | 1 | Required | 679.20 | Amazon | [Link](https://www.amazon.se/dp/B07TD42S27?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+| Compute / autonomy | SanDisk Ultra 64GB microSDXC Card | 1 | Required | 94.81 | Amazon | [Link](https://www.amazon.se/-/en/dp/B0B7NXBM6P?th=1) |
+| Flight control | Pixhawk 6C | 1 | Required | 1,520.04 | Holybro | [Link](https://holybro.com/products/pixhawk-6c?_pos=2&_sid=2e48f56f9&_ss=r) |
+| Frame & structure | S500 V2 Frame Kit | 1 | Required | 384.61 | Holybro | [Link](https://holybro.com/collections/multicopter-kit/products/spare-parts-x500-v2-kit) |
+| Ground support | Charger - SkyRC S100 Neo Datorladdare AC100W/DC200W | 1 | Required | 548.00 | Elefun | [Link](https://www.elefun.se/vara-63967/computerlader-skyrc-s100-neo-ac100w-dc200w) |
+| Ground support | LiPo-Safe Bag | 1 | Required | 124.80 | Elefun | [Link](https://www.elefun.se/vara-63844/saker-laddvaska-elefun-lipo-safe-bag-transportvaska-m) |
+| Ground support | SkyRC Multi-balance card | 1 | Optional | 105.60 | Elefun | [Link](https://www.elefun.se/vara-25070/laddningstillbehor-balanseringskontakt-skyrc-multibalanseringskort-xh-tp-fp-hp-pq-eh) |
+| Ground support | Transmitter - FrSky Taranis Q X7 ACCESS Black EU | 1 | Required | 1,488.00 | Elefun | [Link](https://www.elefun.se/vara-48092/radioutrustning-sandare-frsky-taranis-q-x7-access-black-eu) |
+| Ground support | Transmitter Batteries - Samsung INR18650-35E 3400mA 3.6V Li-ion | 2 | Required | 78.40 | Elefun | [Link](https://www.elefun.se/vara-40233/batteri-nimh-samsung-inr18650-35e-3400ma-36v-liion) |
+| Ground support | XT60 to DC5525 Power Cable | 1 | Optional | 140.43 | Amazon | [Link](https://www.amazon.se/dp/B0DRCHK4TM?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) |
+| Mounting & fasteners | CubePilot 3M Stickers | 1 | Required | 29.39 | 3DXR | [Link](https://www.3dxr.co.uk/autopilots-c2/the-cube-aka-pixhawk-2-1-c9/cube-autopilot-and-combos-c10/cubepilot-cubepilot-3m-stickers-p6088) |
+| Mounting & fasteners | Double sided acrylic tape (3m) | 1 | Required | 55.80 | 3DXR | [Link](https://www.3dxr.co.uk/building-c23/tapes-c130/double-sided-c466/3dxr-3-meter-double-sided-acrylic-tape-p5242) |
+| Mounting & fasteners | Tarot Hook & Loop Fastening Strap (360mm) | 2 | Required | 28.89 | 3DXR | [Link](https://www.3dxr.co.uk/building-c23/tapes-c130/velcro-c350/tarot-hook-loop-fastening-strap-360mm-tl2698-p3565) |
+| Navigation & sensing | InnoMaker Global Shutter Camera Module | 1 | Optional | 286.49 | Amazon | [Link](https://www.amazon.se/-/en/dp/B09WTP5GZH?th=1) |
+| Navigation & sensing | M9N GPS - IST8310 | 1 | Required | 503.57 | Holybro | [Link](https://holybro.com/products/m9n-gps) |
+| Payload | Holybro S500 V2 Payload Platform Board V2 | 1 | Optional | 146.40 | HAB | [Link](https://hab.se/modeller-delar/holybro-s500-v2-payload-platform-board-v2) |
+| Power | Holybro S500 V2 Battery Mounting Board V2 | 1 | Required | 104.80 | HAB | [Link](https://hab.se/modeller-delar/holybro-s500-v2-battery-mounting-board-v2) |
+| Power | LiPo Battery 4s 3300mAh - 40C - CNHL XT60 | 1 | Required | 359.20 | Elefun | [Link](https://www.elefun.se/vara-61453/batteri-lipo-4s-3300mah-40c-cnhl-xt60) |
+| Power | PM02 Power Module | 1 | Required | 173.90 | Holybro | [Link](https://holybro.com/collections/power-modules-pdbs/products/pm02-v3-12s-power-module) |
+| Propulsion | Holybro S500 V2 Motor 2216-920KV-CCW (1PC) | 2 | Required | 552.00 | HAB | [Link](https://hab.se/modeller-delar/holybro-s500-v2-motor-2216-920kv-ccw-1pc) |
+| Propulsion | Holybro S500 V2 Motor 2216-920KV-CW (1PC) | 2 | Required | 552.00 | HAB | [Link](https://hab.se/modeller-delar/holybro-s500-v2-motor-2216-920kv-cw-1pc) |
+| Propulsion | Holybro S500 V2-BLHeli S 20A ESC(1PC) | 4 | Required | 771.20 | HAB | [Link](https://hab.se/modeller-delar/holybro-s500-v2-blheli-s-20a-esc1pc) |
+| Propulsion | Holybro X500/S500 V2 Propeller1045 (2pair) | 1 | Required | 191.20 | HAB | [Link](https://hab.se/modeller-delar/holybro-x500s500-v2-propeller1045-2pair) |
+| Propulsion | T-Motor T1045 Self locking Props - Pair | 4 | Required | 330.21 | 3DXR | [Link](https://www.3dxr.co.uk/multirotor-c3/multirotor-props-c265/t-motor-t1045-self-locking-props-pair-p3209) |
+| Tools & assembly | Fixpoint 45246 Desoldering Braid, 2 mm x 1.5 m | 1 | Optional | 42.40 | Amazon | [Link](https://www.amazon.se/-/en/dp/B01M7YZ3FM?th=1) |
+| Tools & assembly | Leaded Solder 100G - 0.8mm Diameter | 1 | Required | 82.21 | 3DXR | [Link](https://www.3dxr.co.uk/building-c23/consumables-c24/team-black-sheep-tbs-solder-100g-p5484) |
+| Tools & assembly | Soldering Brass Sponge | 1 | Optional | 118.40 | Amazon | [Link](https://www.amazon.se/-/en/dp/B08FQBS97L) |
+| Tools & assembly | Soldering Pen - PINECIL version 2 | 1 | Required | 699.46 | Amazon | [Link](https://www.amazon.se/dp/B096X6SG13?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+| Wiring & connectors | 14 AWG Silicone Wire Black (1m) | 2 | Required | 19.59 | 3DXR | [Link](https://www.3dxr.co.uk/electronics-c78/cable-wire-c295/silicon-cables-c297/amass-awg-silicone-wire-cable-p5271) |
+| Wiring & connectors | 14 AWG Silicone Wire Red (1m) | 2 | Required | 19.59 | 3DXR | [Link](https://www.3dxr.co.uk/electronics-c78/cable-wire-c295/silicon-cables-c297/amass-awg-silicone-wire-cable-p5271) |
+| Wiring & connectors | 20 AWG Silicone Wire Black (1m) | 2 | Required | 10.29 | 3DXR | [Link](https://www.3dxr.co.uk/electronics-c78/cable-wire-c295/silicon-cables-c297/amass-awg-silicone-wire-cable-p5271) |
+| Wiring & connectors | 20 AWG Silicone Wire Red (1m) | 2 | Required | 10.29 | 3DXR | [Link](https://www.3dxr.co.uk/electronics-c78/cable-wire-c295/silicon-cables-c297/amass-awg-silicone-wire-cable-p5271) |
+| Wiring & connectors | 28 AWG Silicone Wire Black (1m) | 2 | Required | 5.33 | 3DXR | [Link](https://www.3dxr.co.uk/electronics-c78/cable-wire-c295/silicon-cables-c297/amass-awg-silicone-wire-cable-p5271) |
+| Wiring & connectors | 28 AWG Silicone Wire Blue (1m) | 2 | Required | 5.33 | 3DXR | [Link](https://www.3dxr.co.uk/electronics-c78/cable-wire-c295/silicon-cables-c297/amass-awg-silicone-wire-cable-p5271) |
+| Wiring & connectors | 28 AWG Silicone Wire Red (1m) | 2 | Required | 5.33 | 3DXR | [Link](https://www.3dxr.co.uk/electronics-c78/cable-wire-c295/silicon-cables-c297/amass-awg-silicone-wire-cable-p5271) |
+| Wiring & connectors | 28 AWG Silicone Wire White (1m) | 2 | Required | 5.33 | 3DXR | [Link](https://www.3dxr.co.uk/electronics-c78/cable-wire-c295/silicon-cables-c297/amass-awg-silicone-wire-cable-p5271) |
+| Wiring & connectors | 28 AWG Silicone Wire Yellow (1m) | 2 | Required | 5.33 | 3DXR | [Link](https://www.3dxr.co.uk/electronics-c78/cable-wire-c295/silicon-cables-c297/amass-awg-silicone-wire-cable-p5271) |

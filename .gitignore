@@ -27,6 +27,13 @@ ENV/
 notes.md
 notes/
 .bom-sheet-url
+data/local/
+data/processed/order_items.csv
+data/processed/order_summary.csv
+data/processed/order_category_summary.csv
+analysis/local/
+scripts/generate_order_bom.py
+*.ipynb_checkpoints/
 
 # Editor/OS noise
 .vscode/
