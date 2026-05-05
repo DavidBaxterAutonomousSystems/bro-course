@@ -1,7 +1,7 @@
 # Bill of Materials
 
-This page summarizes the current study circle build parts and costs. It is intended to be readable for participants; the detailed procurement audit trail is generated locally and is not published.
+This page shows the current parts plan for the BRO-Air study circle build. Use it to understand what each subsystem needs, which parts are currently selected, and how the build cost is shaping up.
 
-The cost view is a working planning aid, not a final purchasing recommendation. Prices, availability, shipping, import handling, and substitutions may change as the build develops.
+The BOM is a live planning view, not a final purchasing recommendation. Prices, availability, shipping, import handling, and substitutions can change as we learn more and receive the ordered parts.
 
-Accounting model: comparable parts use ex-VAT item cost only. Shipping and clearance/admin are kept as order-level procurement overhead rather than assigned to individual subsystems. VAT is grouped by category: parts VAT, shipping/service VAT, and import VAT.
+The cost tables separate part comparison from procurement overhead. Subsystem costs use item prices excluding VAT so the parts can be compared more clearly. Shipping, service fees, clearance/admin charges, and VAT are shown separately where they affect the total cash paid.
