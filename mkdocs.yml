@@ -15,4 +15,5 @@ nav:
   - FAQ: faq.md
 
 theme:
-  name: mkdocs
+  # name: mkdocs
+  name: readthedocs
