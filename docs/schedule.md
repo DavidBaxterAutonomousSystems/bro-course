@@ -28,3 +28,7 @@
 - References:
     - [Holybro S500 V2 Kit Assembly Manual](https://cdn.shopify.com/s/files/1/0604/5905/7341/files/S500_V2_Kit_AssemblyManual.pdf?v=1646987800)
     - [PX4 Holybro S500 V2 build guide](https://docs.px4.io/main/en/frames_multicopter/holybro_s500_v2_pixhawk4.html)
+    - [Autonomous Drone Build "Fruit Bowl" S500 V2 build notes](https://danielwaynewalker.medium.com/autonomous-drone-build-fruit-bowl-holybro-s500-v2-pix32-v5-autopilot-b5ac1492ac38)
+    - [If It Can Fly S500 build overview](https://www.ifitcanfly.com/s500-drone-flying-adventures-including-build-and-configurations/)
+    - [If It Can Fly S500 ESC, battery, and power electronics setup](https://www.ifitcanfly.com/2023/01/28/drone-esc-battery-and-power-electronics-setup-on-s500/)
+    - [Unmanned Tech S500 Quadcopter Frame Assembly Guide](https://youtu.be/ibXNw8jLwBs?si=vcqDiu-EAPu7I_pB)
