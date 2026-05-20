@@ -55,6 +55,17 @@ These are skills or capabilities that should become more concrete as we build.
 
 ## Known Unknowns
 
+### Soldering Tip Preparation
+
+What should we do, if anything, to prepare a new soldering iron tip before using it?
+
+Some things to check before soldering the power system:
+
+- Should the new tip be cleaned, tinned, or otherwise prepared before the first joint?
+- What temperature range should we use for the wire, pads, and solder we have?
+- How do we keep the tip from oxidizing while working?
+- When should we use the brass sponge, wet sponge, flux, or extra solder?
+
 ### Camera Data and Video
 
 How do we get camera data both to the Raspberry Pi for computer vision tasks that tell the flight controller what to do, and also get that video transmitted externally with low latency so we can see what the drone sees?

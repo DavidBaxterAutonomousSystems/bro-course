@@ -40,3 +40,14 @@
     - [Video: Soldering Battery Connector to Power Distribution Board](https://youtu.be/fb1aYwV7SJg?si=xznT7AJ4IO6zG_Ga)
     - [Video: DIY S500 drone kit build and flight](https://youtu.be/fv7XVyHRTBY?si=CrTvADLAg5-C1iW_)
     - [Video: Additional S500 build reference](https://youtu.be/uo4mpJYU8J8?si=CeriUlqXmvW-sGzS)
+
+## Thursday, May 21, 2026
+
+- Time: 17:00-19:30
+- Meet: 17:00 outside Hörsal T ([Map](https://link.mazemap.com/SuGWpIjj))
+- Plan: Walk together to the lab space where we will work
+- Focus: Continue the S500 V2 build and solder the propulsion system
+- Main topics:
+    - Continue and finish the frame and power-system build from last time.
+    - Solder the right connectors to the motors and connect to the ESCs.
+    - Begin connecting peripherals to the Pixhawk, including GPS and receiver.
