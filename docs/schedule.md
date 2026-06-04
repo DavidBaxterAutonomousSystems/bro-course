@@ -51,3 +51,28 @@
     - Continue and finish the frame and power-system build from last time.
     - Solder the right connectors to the motors and connect to the ESCs.
     - Begin connecting peripherals to the Pixhawk, including GPS and receiver.
+
+## Friday, May 29, 2026
+
+- Time: 17:00-19:30
+- Meet: 17:00 outside Hörsal T ([Map](https://link.mazemap.com/SuGWpIjj))
+- Plan: Walk together to the lab space where we will work
+- Focus: 3D printing, FPV demo, final build steps, and initial calibration
+- Main topics:
+    - Held a presentation on 3D printing and the print for the Raspberry Pi mount.
+    - Held an FPV demo, including flying tiny whoops indoors.
+    - Finished the drone build.
+    - Began calibration by completing the accelerometer and compass calibrations.
+
+## Tuesday, June 2, 2026
+
+- Time: 17:00-19:30
+- Meet: 17:00 outside Hörsal T ([Map](https://link.mazemap.com/SuGWpIjj))
+- Plan: Walk together to the lab space where we will work
+- Focus: Final calibration and first test flight
+- Main topics:
+    - Mapped transmitter channels to the flight controller.
+    - Finished calibration by calibrating the ESCs and receiver inputs.
+    - Set up flight modes.
+    - Troubleshot pre-arm checks.
+    - Successfully completed the first test flight with autonomous position hold and landing.

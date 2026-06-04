@@ -2,7 +2,7 @@
 
 This page collects references we may use during the study circle and future BRO course development. Add useful links as they come up.
 
-## Reference Builds
+## Best Drone Build Calibrate and Fly Startpoint
 
 This build is a useful reference for course planning, but it is **not** a 1:1 match for our setup.
 
@@ -34,6 +34,10 @@ Suggested chapter references:
 - [1:09:58 Flying The Drone](https://youtu.be/0xPQ__RNwNs?t=4198)
 - [1:14:40 Endurance Test](https://youtu.be/0xPQ__RNwNs?t=4480)
 - [1:17:07 Python Controlled Pi Zero Drone](https://youtu.be/0xPQ__RNwNs?t=4627)
+
+## Best Drone Programming Startpoint
+
+- [Drone Programming](https://dojofordrones.com/drone-programming/)
 
 ## ArduPilot Documentation
 
