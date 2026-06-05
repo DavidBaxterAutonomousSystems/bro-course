@@ -25,6 +25,11 @@
     - Solder the power module to the power distribution board.
     - Solder the ESCs to the power distribution board.
     - Check power wiring layout before connecting a battery.
+- Build progress:
+    - Initial build
+
+![Initial drone build progress](assets/build-progress/study_circle_spring_26/initial_build.jpeg)
+
 - Related notes: [Build Notes](build-notes.md)
 - Written references:
     - [Holybro S500 V2 Kit Assembly Manual](https://cdn.shopify.com/s/files/1/0604/5905/7341/files/S500_V2_Kit_AssemblyManual.pdf?v=1646987800)
@@ -51,6 +56,10 @@
     - Continue and finish the frame and power-system build from last time.
     - Solder the right connectors to the motors and connect to the ESCs.
     - Begin connecting peripherals to the Pixhawk, including GPS and receiver.
+- Build progress:
+    - Half-built drone
+
+![Half-built drone](assets/build-progress/study_circle_spring_26/half_built.jpeg)
 
 ## Friday, May 29, 2026
 
@@ -63,6 +72,10 @@
     - Held an FPV demo, including flying tiny whoops indoors.
     - Finished the drone build.
     - Began calibration by completing the accelerometer and compass calibrations.
+- Build progress:
+    - Complete build
+
+![Complete drone build](assets/build-progress/study_circle_spring_26/complete_build.jpeg)
 
 ## Tuesday, June 2, 2026
 
@@ -76,3 +89,7 @@
     - Set up flight modes.
     - Troubleshot pre-arm checks.
     - Successfully completed the first test flight with autonomous position hold and landing.
+- Build progress:
+    - First flight
+
+![First drone flight](assets/build-progress/study_circle_spring_26/first_flight.jpeg)
